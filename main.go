@@ -13,10 +13,8 @@ import (
 	"os/signal"
 )
 
-//const Token string = "NDA5MDYzMDY0MzY1ODI2MDQ4.DVgfDw.ygF412spXYqPmF_UYk8jvZQgIX4"
-//const Master string = "Auctorus#4160"
-var m *Meeting
 
+var m *Meeting
 
 func main() {
 	session, err := discordgo.New("Bot " + Token)
